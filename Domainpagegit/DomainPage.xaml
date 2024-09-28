@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Domainpagegit.DomainPage"
+             Title="DomainPage">
+
+    <StackLayout
+        Padding="30"
+        >
+        <Frame BorderColor="#4a4bba" HasShadow="True" BackgroundColor="#f7f5fa" >
+            <Label Text="Main Domains"   FontSize="26"  HorizontalOptions="Center"  />
+        </Frame>
+        <Button Text="Company" Clicked="OnCompanyButtonClicked" Margin="0,20,0,0" />
+
+
+        <Button Text=" + Add New Domain" Margin="0,20,0,0" CornerRadius="50" BackgroundColor="Green"  />
+
+
+    </StackLayout>
+
+</ContentPage>
